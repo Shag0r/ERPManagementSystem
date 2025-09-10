@@ -53,6 +53,7 @@ builder.Services.AddAuthentication(options =>
 builder.Services.AddScoped<IDataAccessHelper, DataAccessHelper>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserTypeRepository, UserTypeRepository>();
+builder.Services.AddScoped<IMenuCategoryRepository, MenuCategoryRepository>();
 
 
 
